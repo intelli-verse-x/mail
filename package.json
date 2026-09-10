@@ -6,8 +6,8 @@
   "license": "AGPL-3.0-only",
   "author": "Christoph Wurst <christoph@winzerhof-wurst.at>",
   "scripts": {
-    "build": "NODE_ENV=production webpack --progress --config webpack.prod.js",
-    "dev": "NODE_ENV=development webpack --config webpack.dev.js",
+    "build": "node init && NODE_ENV=production webpack --progress --config webpack.prod.js",
+    "dev": "node init && NODE_ENV=development webpack --config webpack.dev.js",
     "postinstall": "patch-package",
     "lint": "eslint --ext .js,.ts,.vue .",
     "lint:fix": "eslint --ext .js,.ts,.vue --fix .",
