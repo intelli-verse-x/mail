@@ -40,7 +40,6 @@ tests/.phpunit.result.cache
 /.php-cs-fixer.cache
 
 # VSCode / VSCodium
-.vscode/
 *.code-workspace
 
 # PhpStorm
@@ -53,3 +52,4 @@ tests/.phpunit.result.cache
 
 # Agents 
 .claude/
+config.bat
